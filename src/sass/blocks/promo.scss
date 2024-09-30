@@ -1,0 +1,73 @@
+.header {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    width: 1240px;
+    &_search {
+        img {
+            height: 24px;
+            margin-top: 10px;
+        }
+    }
+    &_menu_item {
+        margin-top: 16px;
+        font-size: 18px;
+    }
+    &_menu {
+        display: flex;
+        justify-content: space-around;
+        height: 56px;
+        width: 374px;
+        font-family: "DM Sans", sans-serif;
+    }
+    &_btn {
+        width: 160px;
+        height: 40px;
+        top: 58px;
+        border-radius: 8px;
+        background-color: $main-color;
+        color: white;
+        border-color: $main-color;
+        transition: all 0.5s;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    &_item_tools {
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-around;
+        height: 56px;
+        width: 304px;
+    }
+}
+.logo {
+    height: 56px;
+    width: 56px;
+}
+.promo {
+    &_title {
+        margin-top: 93px;
+        font-family: Rosario;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 90px;
+        text-align: center;
+
+    }
+    &_text {
+        color: #555555;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        width: 637px;
+        margin: 0 auto ;
+        margin-top: 20px;
+
+    }
+}

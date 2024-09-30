@@ -1,11 +1,11 @@
 @import 'base/variables';
 @import 'base/mixins';
 
-* {
+html {
     font-family: 'MuseoSans', sans-serif;
     margin: 0;
     padding: 0;
-}
+    }
 
 .container {
     width: 1440px;
