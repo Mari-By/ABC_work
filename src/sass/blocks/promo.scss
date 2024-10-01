@@ -28,9 +28,9 @@
         height: 40px;
         top: 58px;
         border-radius: 8px;
-        background-color: $main-color;
+        background-color: #09A66D;
         color: white;
-        border-color: $main-color;
+        border-color: #09A66D;
         transition: all 0.5s;
         &:hover {
             transform: scale(1.05);
@@ -69,5 +69,48 @@
         margin: 0 auto ;
         margin-top: 20px;
 
+    }
+    &_order {
+        display: flex;
+        justify-content: space-between;
+        width: 176px;
+        margin: 40px auto;
+        margin-bottom: 0px;
+    }
+    &_order_text {
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 17px;
+
+    }
+    &_order_img {
+        background: #09A66D;
+        border-radius: 32px;
+        width: 64px;
+        height: 64px;
+        img {
+            margin-top: 23px;
+            margin-left: 14px;
+        }
+    }
+    &_fresh {
+        position: absolute;
+        top: 111px;
+        left: -60px;
+        z-index: -1;
+        img {
+            width: 612px;
+            height: 408px;
+        }
+    }
+    &_wrapper {
+        display: grid;
+
+    }
+    &_user {
+        display: grid;
     }
 }
