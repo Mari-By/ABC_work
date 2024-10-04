@@ -108,9 +108,54 @@
     }
     &_wrapper {
         display: grid;
-
+        justify-content: space-between;
+        width: 1225px;
+        grid-template-columns: 862px 250px;
+        grid-template-rows: 155px 155px 155px;
+        grid-template-areas:
+        "fruts user_first"
+        "fruts user_second"
+        "fruts user_tres"
     }
     &_user {
         display: grid;
+        width: 250px;
+        height: 116px;
+    }
+    &_fruts {
+        img {
+            width: 862px;
+            height: 465px;
+        }
+    }
+    &_user_quantity {
+        font-family: DM Sans;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+    }
+    &_user_order {
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+
     }
 }
+
+#fruts {
+    grid-area: fruts;
+}
+#user_first {
+    grid-area: user_first;
+}
+#user_second {
+    grid-area: user_second;
+}
+#user_tres {
+    grid-area: user_tres;
+}
+
+
