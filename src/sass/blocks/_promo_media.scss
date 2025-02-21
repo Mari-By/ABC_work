@@ -1,0 +1,73 @@
+@media (max-width: 1440px) {
+    .container {
+        margin-left: 0px;
+        width: 1300px;
+    }
+    .header {
+        margin-left: 30px;
+        width: 1200px;
+    }
+    .promo {
+        &__content {
+            margin-left: 0px;
+        }
+        &_wrapper {
+            width: 1200px;
+        }
+
+    }
+}
+
+@media (max-width: 1330px) {
+    .container {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .header {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .promo {
+        width: 100%;
+        &_title {
+            margin-top: 65px;
+            font-size: 65px;
+            margin-bottom: 40px;
+        }
+        &_text {
+            font-size: 16px;
+            margin-top: 0px;
+        }
+        &_fruts {
+            margin: 0 auto;
+            img {
+                width: 800px;
+            }
+        }
+        &_order {
+            margin-top: 30px;
+        }
+        &_wrapper {
+            margin: 0 auto;
+            margin-top: 10px;
+            width: 1150px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
