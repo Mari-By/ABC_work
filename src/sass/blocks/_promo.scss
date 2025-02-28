@@ -77,3 +77,36 @@
         color: #FFFFFF;
     }
 }
+
+.wow {
+    height: 340px;
+    background-image: url(../img/bg/bg_2/image.png);
+    &_img {
+        position: absolute;
+        top: 600px;
+        z-index: 0;
+    }
+    &_text {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 17px;
+        z-index: +1;
+        width: 270px;
+        font-family: Yeseva One;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+    &_quotes_up {
+        position: relative;
+        top: 43px;
+        z-index: +5;
+        left: 50px;
+        
+        
+    }
+}
+
