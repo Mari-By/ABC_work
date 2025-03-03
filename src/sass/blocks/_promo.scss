@@ -89,7 +89,7 @@
     &_text {
         position: relative;
         margin: 0 auto;
-        margin-top: 17px;
+        margin-top: 50px;
         z-index: +1;
         width: 270px;
         font-family: Yeseva One;
@@ -104,9 +104,13 @@
         position: relative;
         top: 43px;
         z-index: +5;
-        left: 50px;
-        
-        
+        left: 24px;
+          
+    }
+    &_quotes_down {
+        position: relative;
+        z-index: +5;
+        left: 270px;
     }
 }
 

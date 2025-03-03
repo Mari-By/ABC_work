@@ -1,0 +1,44 @@
+.about {
+    height: 480px;
+        &_descr {
+        color: #272727;
+        width: 310px;
+        margin-top: 38px;
+        margin-left: 11px;
+        font-family: PT Serif;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1.3px;
+        }
+        &_brain {
+            margin-top: 38px;
+            margin-left: 45px;
+            
+            
+        }
+        &_btn {        
+            width: 190px;
+            border: none;
+            height: 41px;
+            background-color: $main-color;
+            border-radius: 20px;
+            padding: 12px 25px;
+            font-family: Merriweather;
+            font-size: 14px;
+            line-height: 17.6px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: -15px;
+            margin-left: 65px;
+            
+            
+        }
+    
+}
+.int {
+    font-weight: bold;
+}
+.upbold {
+    text-transform: uppercase;
+    font-weight: bold;   
+}

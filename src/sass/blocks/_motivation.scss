@@ -1,0 +1,84 @@
+.motivation {
+    height: 535px;
+    background-image: url(../img/bg/sky_stars.png);
+    &_text {
+        width: 270px;
+        margin-left: 14px;
+        padding-top: 56px;
+        color: #FFFFFF;
+        font-family: Merriweather;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1.5px;
+        span {
+            color: $main-color;
+            font-weight: bold;
+        }
+
+    }
+
+    &_back {
+        background-color: #F3F3F2CC;
+        width: 303px;
+        height: 216px;
+        margin-top: 20px;
+        margin-left: 9px;
+        border-radius: 20px;
+
+    }
+    &_descr {
+        width: 280px;
+        padding-top: 26px;
+        margin-left: 14px;
+        font-family: Merriweather;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 1px;letter-spacing: 1px;
+        span {
+            font-weight: bold;
+        }
+
+    }
+    &_btn {        
+        width: 200px;
+        border: 1px;
+        height: 44px;
+        border-radius: 22px;
+        padding: 12px 25px;
+        font-family: Merriweather;
+        font-size: 14px;
+        line-height: 17.6px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 33px;
+        margin-left: 65px;
+        background-color: transparent; 
+        border: 1.5px solid white; 
+         
+    }
+    &_button {
+        color: white;
+        text-decoration: none;
+        letter-spacing: 1.2px;
+    } 
+    &_footer {
+        display: flex;
+        justify-content: space-between;
+        width: 44px;
+        margin-top: 52px;
+        margin-left: 130px;
+        
+    }
+    &_icon {
+        margin-top: 8px;
+        height: 8px;
+        width: 8px;
+    }
+    &_year {
+        color: #FFFFFF80;
+        font-family: Roboto;
+        font-size: 10px;
+        line-height: 23px;
+        letter-spacing: 1.5px;
+    }
+}
