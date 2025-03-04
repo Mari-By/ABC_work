@@ -18,6 +18,8 @@
     }
 
     &_back {
+        position: relative;
+        z-index: 1;
         background-color: #F3F3F2CC;
         width: 303px;
         height: 216px;
@@ -80,5 +82,17 @@
         font-size: 10px;
         line-height: 23px;
         letter-spacing: 1.5px;
+    }
+    &_flash_right {
+        position: absolute;
+        top: 1500px;
+        left: 544px;
+        z-index: 0;
+    }
+    &_flash_left {
+        position: absolute;
+        top: 1710px;
+        left: 346px;
+        z-index: 0;
     }
 }
