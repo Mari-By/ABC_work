@@ -88,13 +88,13 @@
         display: flex;
         justify-content: space-around;
         background-color: rgba(242, 243, 243, 0.25);
+        cursor: pointer;
+        transition: background-color 0.3s;
 
         &_round {
             margin-top: 15px;
             margin-left: 35px;
-            width: 20px;
-            height: 20px;
-        }
+                    }
         &_text {
             color: #FFFFFF;
             margin-top: 13px;
@@ -119,4 +119,26 @@
             margin-right: 117px;
         }
     }
+}
+
+.circul {
+    width: 19px;
+    height: 19px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1.3px solid white; 
+}
+
+.main_one_answer_one.active {
+    background-color: $main-color;
+    
+}
+
+.main_one_answer_one_round.active {
+    background-color: #2950C2;
+    border: 1.3px solid black;
+}
+
+.main_one_answer_one_text.active {
+    color: black;
 }
