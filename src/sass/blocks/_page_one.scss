@@ -121,7 +121,7 @@
     }
 }
 
-.circul {
+.circul_one {
     width: 19px;
     height: 19px;
     border-radius: 10px;
@@ -129,16 +129,41 @@
     border: 1.3px solid white; 
 }
 
+.circul_two {
+    width: 19px;
+    height: 19px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1.3px solid white;
+}
+
 .main_one_answer_one.active {
     background-color: $main-color;
     
 }
 
-.main_one_answer_one_round.active {
+.circul_one.active {
     background-color: #2950C2;
     border: 1.3px solid black;
 }
 
-.main_one_answer_one_text.active {
+.man.active {
     color: black;
 }
+.press.active {
+    background-color: $main-color;
+}
+.ready.active {
+    color: #181818;
+}
+.main_one_answer_two.active {
+    background-color: $main-color;
+}
+.circul_two.active {
+    background-color: #2950C2;
+    border: 1.3px solid black;
+}
+.woman.active {
+    color: black;
+}
+
