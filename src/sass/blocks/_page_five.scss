@@ -1,0 +1,153 @@
+.five {
+    height: 568px;
+    width: 320px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg/sky_stars.png);
+    &_header {
+        height: 46px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #181818;
+    }
+    &_menu {
+        width: 24px;
+        height: 16px;
+        margin-top: 17px;
+        margin-left: 15px;
+    }
+    &_text {
+        margin-top: 18px;
+        margin-right: 23px;
+        color: $main-color;
+        text-transform: uppercase;
+        font-family: Yeseva One;
+        font-size: 12px;
+        line-height: 13.86px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    &_scale_gray {
+        width: 260px;
+        height: 11px;
+        margin-left: 30px;
+        margin-top: 17px;
+        opacity: 0.59;
+        border-radius: 10.5px;
+        background-color: #F2F3F3;
+    }
+    &_scale_green {
+        position: relative;
+        top: -11px;
+        left: 30px;
+        width: 93px;
+        height: 11px;
+        border-radius: 10.5px;
+        background-color: $green-color;
+    }
+    &_content {
+        height: 365px; 
+    }
+
+    &_btn {        
+        width: 190px;
+        border: none;
+        height: 41px;
+        background-color: #DADADA;
+        border-radius: 20px;
+        padding: 12px 25px;
+        font-family: Merriweather;
+        font-size: 14px;
+        line-height: 17.6px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 65px;
+        margin-top: 35px;   
+    }
+
+    &_button {
+        text-decoration: none;
+        color: #8E8E8E;
+        letter-spacing: 1.3px;
+        font-weight: bold;
+    }
+    &_question {
+        font-family: PT Serif;
+        font-size: 19px;
+        line-height: 23px;
+        letter-spacing: 1.1px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 15px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    &_ans-s {
+        height: 275px;
+        width: 265px;
+        margin-left: 27px;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+.ans_1_color {
+    height: 75px;
+    width: 75px;
+    background-color: #A8A8A8;
+}
+
+.ans_2_color {
+    height: 75px;
+    width: 75px;
+    background-color: #0000A9;
+}
+
+.ans_3_color {
+    height: 75px;
+    width: 75px;
+    background-color: #00A701;
+}
+
+.ans_4_color {
+    height: 75px;
+    width: 75px;
+    background-color: #F60100;
+}
+
+.ans_5_color {
+    height: 75px;
+    width: 75px;
+    background-color: #FDFF19;
+}
+
+.ans_6_color {
+    height: 75px;
+    width: 75px;
+    background-color: #A95403;
+}
+
+.ans_7_color {
+    height: 75px;
+    width: 75px;
+    background-color: #000000;
+}
+
+.ans_8_color {
+    height: 75px;
+    width: 75px;
+    background-color: #850068;
+}
+
+.ans_9_color {
+    height: 75px;
+    width: 75px;
+    background-color: #46B2AC;
+}
+
+
+.ans_1_color.active, .ans_2_color.active, .ans_3_color.active, .ans_4_color.active, .ans_5_color.active, .ans_6_color.active, .ans_7_color.active, .ans_8_color.active, .ans_9_color.active {
+    border: 5px solid $main-color;
+    height: 65px;
+    width: 65px;
+}
+
