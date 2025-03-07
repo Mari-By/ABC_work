@@ -1,0 +1,135 @@
+.seven {
+    height: 568px;
+    width: 320px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg/sky_stars.png);
+    &_header {
+        height: 46px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #181818;
+    }
+    &_menu {
+        width: 24px;
+        height: 16px;
+        margin-top: 17px;
+        margin-left: 15px;
+    }
+    &_text {
+        margin-top: 18px;
+        margin-right: 23px;
+        color: $main-color;
+        text-transform: uppercase;
+        font-family: Yeseva One;
+        font-size: 12px;
+        line-height: 13.86px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    &_scale_gray {
+        width: 260px;
+        height: 11px;
+        margin-left: 30px;
+        margin-top: 17px;
+        opacity: 0.59;
+        border-radius: 10.5px;
+        background-color: #F2F3F3;
+    }
+    &_scale_green {
+        position: relative;
+        top: -11px;
+        left: 30px;
+        width: 128px;
+        height: 11px;
+        border-radius: 10.5px;
+        background-color: $green-color;
+    }
+    &_content {
+        height: 365px; 
+    }
+
+    &_btn {        
+        width: 190px;
+        border: none;
+        height: 41px;
+        background-color: #DADADA;
+        border-radius: 20px;
+        padding: 12px 25px;
+        font-family: Merriweather;
+        font-size: 14px;
+        line-height: 17.6px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 65px;
+        margin-top: 35px;   
+    }
+
+    &_button {
+        text-decoration: none;
+        color: #8E8E8E;
+        letter-spacing: 1.3px;
+        font-weight: bold;
+    }
+    &_question {
+        font-family: PT Serif;
+        font-size: 19px;
+        line-height: 28px;
+        letter-spacing: 1.1px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 17px;
+        width: 237px;
+        margin-left: 20px;
+    }
+    &_ans_1 {
+        margin-top: 33px;
+        height: 40px;
+        display: flex;
+        background-color: rgba(242, 243, 243, 0.25);
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &_text {
+            color: #FFFFFF;
+            margin-top: 8px;
+            font-family: PT Serif;
+            font-size: 18px;
+            letter-spacing: 1.1px;
+            margin-left: 39px;
+        }
+    }
+}
+
+.seven_ans_2, .seven_ans_3, .seven_ans_4, .seven_ans_5, .seven_ans_6 {
+    margin-top: 8px;
+        height: 40px;
+        display: flex;
+        background-color: rgba(242, 243, 243, 0.25);
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &_text {
+            color: #FFFFFF;
+            margin-top: 8px;
+            font-family: PT Serif;
+            font-size: 18px;
+            letter-spacing: 1.1px;
+            margin-left: 39px;
+        }
+}
+
+.seven_circul_1, .seven_circul_2, .seven_circul_3, .seven_circul_4, .seven_circul_5, .seven_circul_6 {
+    margin-top: 9px;
+    margin-left: 35px;
+    width: 19px;
+    height: 19px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1.3px solid white;
+}
+
+.seven_ans_1.active, .seven_ans_2.active, .seven_ans_3.active, .seven_ans_4.active, .seven_ans_5.active, .seven_ans_6.active {
+    background-color: $main-color;
+}
+
+.seven_circul_1.active, .seven_circul_2.active, .seven_circul_3.active, .seven_circul_4.active, .seven_circul_5.active, .seven_circul_6.active {
+    background-color: #2950C2;
+    border: 1.3px solid black;
+}
