@@ -21,18 +21,5 @@ button2.addEventListener('click', () => {
 });
 
 
-// const button3 = document.querySelector('.main_two_answer_one'); 
-// const elementsGroup3 = document.querySelectorAll('.main_two_answer_one, .p_two_circul_one, .a_1, .press_2, .ready_2'); 
- 
-// button3.addEventListener('click', () => {
-//   elementsGroup3.forEach(el => {
-//     el.classList.toggle('active');
-//   });
-// });
 
-const box = document.querySelector('.main_two_btn');
-
-box.addEventListener('click', () => {
-  box.classList.toggle('active');
-});
 
