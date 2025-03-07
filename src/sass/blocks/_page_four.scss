@@ -1,4 +1,4 @@
-.tres {
+.four {
     height: 568px;
     width: 320px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg/sky_stars.png);
@@ -38,13 +38,13 @@
         position: relative;
         top: -11px;
         left: 30px;
-        width: 36px;
+        width: 76px;
         height: 11px;
         border-radius: 10.5px;
         background-color: $green-color;
     }
     &_content {
-        height: 350px; 
+        height: 365px; 
     }
 
     &_btn {        
@@ -71,23 +71,25 @@
     }
     &_question {
         font-family: PT Serif;
-        font-size: 20px;
-        line-height: 26.5px;
+        font-size: 19px;
+        line-height: 28px;
         letter-spacing: 1.1px;
         text-align: center;
         color: #FFFFFF;
-        margin-top: 31px;
+        margin-top: 17px;
+        width: 280px;
+        margin-left: 20px;
     }
     &_ans_1 {
-        margin-top: 40px;
-        height: 50px;
+        margin-top: 33px;
+        height: 40px;
         display: flex;
         background-color: rgba(242, 243, 243, 0.25);
         cursor: pointer;
         transition: background-color 0.3s;
         &_text {
             color: #FFFFFF;
-            margin-top: 13px;
+            margin-top: 8px;
             font-family: PT Serif;
             font-size: 18px;
             letter-spacing: 1.1px;
@@ -97,16 +99,16 @@
 
 }
 
-.tres_ans_2, .tres_ans_3, .tres_ans_4, .tres_ans_5 {
+.four_ans_2, .four_ans_3, .four_ans_4, .four_ans_5, .four_ans_6 {
     margin-top: 8px;
-        height: 50px;
+        height: 40px;
         display: flex;
         background-color: rgba(242, 243, 243, 0.25);
         cursor: pointer;
         transition: background-color 0.3s;
         &_text {
             color: #FFFFFF;
-            margin-top: 13px;
+            margin-top: 8px;
             font-family: PT Serif;
             font-size: 18px;
             letter-spacing: 1.1px;
@@ -114,8 +116,8 @@
         }
 }
 
-.tres_circul_1, .tres_circul_2, .tres_circul_3, .tres_circul_4, .tres_circul_5 {
-    margin-top: 15px;
+.four_circul_1, .four_circul_2, .four_circul_3, .four_circul_4, .four_circul_5, .four_circul_6 {
+    margin-top: 9px;
     margin-left: 35px;
     width: 19px;
     height: 19px;
@@ -124,23 +126,11 @@
     border: 1.3px solid white;
 }
 
-.tres_ans_1.active, .tres_ans_2.active, .tres_ans_3.active, .tres_ans_4.active, .tres_ans_5.active {
+.four_ans_1.active, .four_ans_2.active, .four_ans_3.active, .four_ans_4.active, .four_ans_5.active, .four_ans_6.active {
     background-color: $main-color;
 }
 
-.tres_circul_1.active, .tres_circul_2.active, .tres_circul_3.active, .tres_circul_4.active, .tres_circul_5.active {
+.four_circul_1.active, .four_circul_2.active, .four_circul_3.active, .four_circul_4.active, .four_circul_5.active, .four_circul_6.active {
     background-color: #2950C2;
     border: 1.3px solid black;
-}
-
-.a_1.active, .a_2.active, .a_3.active, .a_4.active, .a_5.active {
-    color: black;
-}
-
-.press.active {
-    background-color: $main-color;
-}
-
-.ready.active {
-    color: #181818;
 }
