@@ -1,4 +1,4 @@
-.six {
+.nine {
     height: 568px;
     width: 320px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg/sky_stars.png);
@@ -8,6 +8,7 @@
         justify-content: space-between;
         background-color: #181818;
     }
+    
     &_menu {
         width: 24px;
         height: 16px;
@@ -24,6 +25,7 @@
         line-height: 13.86px;
         letter-spacing: 1px;
         font-weight: bold;
+
     }
     &_scale_gray {
         width: 260px;
@@ -33,18 +35,20 @@
         opacity: 0.59;
         border-radius: 10.5px;
         background-color: #F2F3F3;
+
     }
     &_scale_green {
         position: relative;
         top: -11px;
         left: 30px;
-        width: 103px;
+        width: 150px;
         height: 11px;
         border-radius: 10.5px;
         background-color: $green-color;
+
     }
     &_content {
-        height: 365px; 
+        height: 320px;
     }
 
     &_btn {        
@@ -60,7 +64,7 @@
         text-align: center;
         text-transform: uppercase;
         margin-left: 65px;
-        margin-top: 35px;   
+        margin-top: 65px;           
     }
 
     &_button {
@@ -72,82 +76,65 @@
     &_question {
         font-family: PT Serif;
         font-size: 19px;
-        line-height: 23px;
+        line-height: 20px;
         letter-spacing: 1.1px;
         text-align: center;
         color: #FFFFFF;
-        margin-top: 15px;
-        width: 280px;
-        margin-left: 20px;
+        margin-top: 33px;
     }
-    &_ans-s {
-        height: 275px;
-        width: 265px;
-        margin-left: 27px;
-        margin-top: 10px;
+    &_ans_1 {
+        margin-top: 30px;
+        height: 78px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    &_ans_1_color {
-        height: 75px;
-        width: 75px;
-        background-color: #A8A8A8;
-    }
-    
-    &_ans_2_color {
-        height: 75px;
-        width: 75px;
-        background-color: #46B2AC;
-    }
-    
-    &_ans_3_color {
-        height: 75px;
-        width: 75px;
-        background-color: #A95403;
-    }
-    
-    &_ans_4_color {
-        height: 75px;
-        width: 75px;
-        background-color: #00A701;
-    }
-    
-    &_ans_5_color {
-        height: 75px;
-        width: 75px;
-        background-color: #000000;
-    }
-    
-    &_ans_6_color {
-        height: 75px;
-        width: 75px;
-        background-color: #F60100;
-    }
-    
-    &_ans_7_color {
-        height: 75px;
-        width: 75px;
-        background-color: #850068;
-    }
-    
-    &_ans_8_color {
-        height: 75px;
-        width: 75px;
-        background-color: #FDFF19;
-    }
-    
-    &_ans_9_color {
-        height: 75px;
-        width: 75px;
-        background-color: #0000A9;
+        background-color: rgba(242, 243, 243, 0.25);
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &_text {
+            color: #FFFFFF;
+            margin-top: 9px;
+            font-family: PT Serif;
+            font-size: 18px;
+            letter-spacing: 1.1px;
+            margin-left: 15px;
+            line-height: 20px;
+            width: 220px;
+        }
     }
 }
 
+.nine_ans_2, .nine_ans_3 {
+    margin-top: 19px;
+    height: 78px;
+    display: flex;
+    background-color: rgba(242, 243, 243, 0.25);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    &_text {
+        color: #FFFFFF;
+        margin-top: 22px;
+        font-family: PT Serif;
+        font-size: 18px;
+        letter-spacing: 1.1px;
+        margin-left: 15px;
+        line-height: 20px;
+        width: 236px;
+    }
+}
 
+.nine_circul_1, .nine_circul_2, .nine_circul_3 {
+    margin-top: 29px;
+    margin-left: 35px;
+    width: 19px;
+    height: 19px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1.3px solid white;
+}
 
-.six_ans_1_color.active, .six_ans_2_color.active, .six_ans_3_color.active, .six_ans_4_color.active, .six_ans_5_color.active, .six_ans_6_color.active, .six_ans_7_color.active, .six_ans_8_color.active, .six_ans_9_color.active {
-    border: 5px solid $main-color;
-    height: 65px;
-    width: 65px;
+.nine_ans_1.active, .nine_ans_2.active, .nine_ans_3.active {
+    background-color: $main-color;
+}
+.nine_circul_1.active, .nine_circul_2.active, .nine_circul_3.active {
+    background-color: #2950C2;
+    border: 1.3px solid black;
 }
