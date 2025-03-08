@@ -1,0 +1,162 @@
+.ten {
+    height: 568px;
+    width: 320px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg/sky_stars.png);
+    &_header {
+        height: 46px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #181818;
+    }
+    
+    &_menu {
+        width: 24px;
+        height: 16px;
+        margin-top: 17px;
+        margin-left: 15px;
+    }
+    &_text {
+        margin-top: 18px;
+        margin-right: 23px;
+        color: $main-color;
+        text-transform: uppercase;
+        font-family: Yeseva One;
+        font-size: 12px;
+        line-height: 13.86px;
+        letter-spacing: 1px;
+        font-weight: bold;
+
+    }
+    &_scale_gray {
+        width: 260px;
+        height: 11px;
+        margin-left: 30px;
+        margin-top: 17px;
+        opacity: 0.59;
+        border-radius: 10.5px;
+        background-color: #F2F3F3;
+
+    }
+    &_scale_green {
+        position: relative;
+        top: -11px;
+        left: 30px;
+        width: 171px;
+        height: 11px;
+        border-radius: 10.5px;
+        background-color: $green-color;
+
+    }
+    &_content {
+        height: 370px;
+    }
+
+    &_btn {        
+        width: 190px;
+        border: none;
+        height: 41px;
+        background-color: #DADADA;
+        border-radius: 20px;
+        padding: 12px 25px;
+        font-family: Merriweather;
+        font-size: 14px;
+        line-height: 17.6px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 65px;
+        margin-top: 40px;           
+    }
+
+    &_button {
+        text-decoration: none;
+        color: #8E8E8E;
+        letter-spacing: 1.3px;
+        font-weight: bold;
+    }
+    &_question {
+        font-family: PT Serif;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 1.1px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 6px;
+    }
+    &_picture {
+        margin-left: 76px;
+        margin-top: 15px;
+    }
+    &_ans_1 {
+        margin-top: 17px;
+        height: 50px;
+        display: flex;
+        background-color: rgba(242, 243, 243, 0.25);
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &_text {
+            color: #FFFFFF;
+            margin-top: 16px;
+            font-family: PT Serif;
+            font-size: 18px;
+            letter-spacing: 1.1px;
+            margin-left: 30px;
+            line-height: 20px;
+            width: 220px;
+        }
+    }
+    &_ans_2 {
+        margin-top: 9px;
+        height: 50px;
+        display: flex;
+        background-color: rgba(242, 243, 243, 0.25);
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &_text {
+            color: #FFFFFF;
+            margin-top: 16px;
+            font-family: PT Serif;
+            font-size: 18px;
+            letter-spacing: 1.1px;
+            margin-left: 30px;
+            line-height: 20px;
+            width: 200px;
+        }
+    }
+    &_ans_3 {
+        margin-top: 9px;
+        height: 50px;
+        display: flex;
+        background-color: rgba(242, 243, 243, 0.25);
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &_text {
+            color: #FFFFFF;
+            margin-top: 8px;
+            font-family: PT Serif;
+            font-size: 16px;
+            letter-spacing: 1.1px;
+            margin-left: 30px;
+            line-height: 16px;
+            width: 200px;
+        }
+    }
+}
+
+.ten_circul_1, .ten_circul_2, .ten_circul_3 {
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 19px;
+    height: 19px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1.3px solid white;
+}
+
+.ten_ans_1.active, .ten_ans_2.active, .ten_ans_3.active {
+    background-color: $main-color;
+}
+
+.ten_circul_1.active, .ten_circul_2.active, .ten_circul_3.active {
+    background-color: #2950C2;
+    border: 1.3px solid black;
+}
