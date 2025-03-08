@@ -1,0 +1,113 @@
+.thirteen {
+    width: 320px;
+    margin: 0 auto;
+    height: 672px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg/sky_stars.png);
+    &_header {
+        height: 46px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #181818;
+    }
+    &_menu {
+        width: 24px;
+        height: 16px;
+        margin-top: 17px;
+        margin-left: 15px;
+    }
+    &_text {
+        margin-top: 14px;
+        margin-right: 100px;
+        color: $main-color;
+        text-transform: uppercase;
+        font-family: Yeseva One;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    &_title {
+        margin-top: 28px;
+        margin-left: 18px;
+        width: 290px;
+        font-family: PT Serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    &_descr {
+        margin-top: 10px;
+        margin-left: 29px;
+        width: 268px;
+        color: white;
+        font-family: PT Serif;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        span {
+            text-decoration: underline;
+        }
+
+    }
+
+    &_title_2 {
+        margin-top: 22px;
+        margin-left: 29px;
+        width: 268px;
+        color: $green-color;
+        text-transform: uppercase;
+        font-family: PT Serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    
+    &_pers-d {
+        margin-top: 12px;
+        margin-left: 35px;
+        width: 256px;
+        height: 114px;
+        border-radius: 6px;
+        background-color: rgba(28, 39, 65, 1);
+        color: white;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 15px;
+    }
+
+    &_call{
+        margin-top: 5px;
+        margin-left: 43px;
+        width: 240px;
+        color: $green-color;
+        font-family: PT Serif;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    &_timer {
+        margin-left: 88px;
+        width: 150px;
+        color: $green-color;
+        font-family: PT Serif;
+        font-weight: 400;
+        font-size: 11px;
+        text-align: center;
+        line-height: 11px;
+    }
+
+}
